@@ -1,0 +1,84 @@
+/* body:header - new year celebration banner */
+.header {
+    width: 1600px;
+    height: 750px;
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.celebration h2 {
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    text-align: center;
+}
+.celebration h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 85px;
+    text-align: center;
+}
+
+/* common colors */
+.white-color {
+    color: rgb(255, 255, 255);
+}
+.red-color {
+    color: rgb(255, 0, 0);;
+}
+.black-color {
+    color: rgb(7, 2, 17);
+}
+.light-black-color {
+    color: rgba(7, 2, 17, 0.6);
+}
+
+/* body:main:section id:new-year-off*/
+#new-year-off {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.off {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 85px;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-align: center;
+}
+.deal {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-align: center;
+}
+.categories {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 48px;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-align: center;
+}
+
