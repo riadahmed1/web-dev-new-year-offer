@@ -12,7 +12,7 @@
     align-items: center;
     margin: 0 auto;
     margin-top: 50px;
-    
+    border-radius: 15px;
 }
 
 .celebration h2 {
@@ -36,6 +36,9 @@
 .white-color {
     color: rgb(255, 255, 255);
 }
+.light-white-color {
+    color: rgba(255, 255, 255, 0.8)
+}
 .red-color {
     color: rgb(255, 0, 0);;
 }
@@ -46,7 +49,7 @@
     color: rgba(7, 2, 17, 0.6);
 }
 
-/* body:main:section id:new-year-off*/
+/* body:main:section id:new-year-off */
 #new-year-off {
     display: flex;
     flex-direction: column;
@@ -82,3 +85,52 @@
   text-align: center;
 }
 
+/* body:main:section id:party */
+#party {
+    width: 1600px;
+    height: 750px;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 15px;
+}
+.party-title {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 75px;
+    text-align: left;
+    padding: 0px 0px 0px 140px;
+}
+.party-description {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-align: left;
+  padding: 0px 200px 100px 140px;
+}
+.party-join {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  text-align: left;
+  padding: 0px 0px 20px 195px;
+}
+.party-img-2024 img {
+    margin-right: 145px;
+}
