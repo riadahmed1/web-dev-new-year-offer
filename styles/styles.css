@@ -2,8 +2,8 @@
 .header {
     width: 1600px;
     height: 750px;
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
-    url("../images/Banner\ Image.png");
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+        url("../images/Banner\ Image.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,6 +23,7 @@
     font-size: 42px;
     text-align: center;
 }
+
 .celebration h1 {
     color: rgb(255, 255, 255);
     font-family: "Merriweather", serif;
@@ -36,15 +37,20 @@
 .white-color {
     color: rgb(255, 255, 255);
 }
+
 .light-white-color {
     color: rgba(255, 255, 255, 0.8)
 }
+
 .red-color {
-    color: rgb(255, 0, 0);;
+    color: rgb(255, 0, 0);
+    ;
 }
+
 .black-color {
     color: rgb(7, 2, 17);
 }
+
 .light-black-color {
     color: rgba(7, 2, 17, 0.6);
 }
@@ -57,40 +63,43 @@
     align-items: center;
     margin-top: 50px;
 }
+
 .off {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 85px;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-  text-align: center;
+    font-optical-sizing: auto;
+    font-size: 85px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
 }
+
 .deal {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 24px;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-  text-align: center;
+    font-optical-sizing: auto;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
 }
+
 .categories {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 48px;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-  text-align: center;
+    font-optical-sizing: auto;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
 }
 
 /* body:main:section id:party */
 #party {
     width: 1600px;
     height: 750px;
-    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),
-    url("../images/Vectorrr.png");
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+        url("../images/Vectorrr.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -101,6 +110,7 @@
     margin-top: 120px;
     border-radius: 15px;
 }
+
 .party-title {
     font-family: "Merriweather", serif;
     font-weight: 900;
@@ -109,28 +119,82 @@
     text-align: left;
     padding: 0px 0px 0px 140px;
 }
+
 .party-description {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-  text-align: left;
-  padding: 0px 200px 100px 140px;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: left;
+    padding: 0px 200px 100px 140px;
 }
+
 .party-join {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-  text-align: left;
-  padding: 0px 0px 20px 195px;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: left;
+    padding: 0px 0px 20px 195px;
 }
+
 .party-img-2024 img {
     margin-right: 145px;
+}
+
+/* body:main:section id-place&time */
+#place-time {
+    width: 1600px;
+    height: 482px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    border-radius: 15px 15px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.place-time-description {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    line-height: 56px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.join-btn {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgb(255, 0, 0);
+    width: 167px;
+    font-family: ;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    border: none;
 }
