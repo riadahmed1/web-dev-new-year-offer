@@ -210,12 +210,14 @@
     margin-top: 200px;
     margin-bottom: 200px;
 }
+
 .coming-soon-slogan {
     width: 850px;
     text-align: left;
     padding: 0px 0px 0px 5px;
     align-items: center;
 }
+
 .coming-soon-slogan-subtitle {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -227,6 +229,7 @@
     text-align: left;
     padding: 0px 0px 0px 0px;
 }
+
 .coming-soon-slogan-title {
     font-family: "Merriweather", serif;
     font-size: 60px;
@@ -235,6 +238,7 @@
     text-align: left;
     padding: 0px 0px 0px 0px;
 }
+
 .coming-soon-slogan-description {
     width: ;
     font-family: "Inter", sans-serif;
@@ -247,6 +251,7 @@
     text-align: left;
     padding: 0px 0px 0px 0px;
 }
+
 .coming-soon-img {
     width: ;
     border: 15px solid red;
@@ -257,10 +262,12 @@
     justify-content: center;
     align-items: center;
 }
+
 .coming-soon-party-img {
     width: 500px;
-    
+
 }
+
 .coming-soon-2024 {
     width: 600px;
     text-align: left;
@@ -268,6 +275,7 @@
     justify-content: left;
     align-items: center;
 }
+
 .coming-soon-2024-date {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -279,6 +287,7 @@
     text-align: left;
     padding: 60px 0px 0px 25px;
 }
+
 .coming-soon-2024-desription {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -290,8 +299,88 @@
     text-align: left;
     padding: 0px 0px 0px 25px;
 }
+
 .coming-soon-2024-img {
     width: 150px;
     padding-top: 50px;
     padding-left: 25px;
+}
+
+/* body:main:section id:holiday-sale */
+#holiday-sale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holiday-sale-subtitle {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
+}
+
+.holiday-sale-title {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 20px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
+}
+
+.holiday-sale-description {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: center;
+}
+
+/* body:main:section id:discount */
+#discount {
+    width: 1600px;
+    height: 580px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.discount-giftbox-bar {
+    position: relative;
+}
+
+.discount-giftbox {
+    position: absolute;
+    left: +100px;
+    width: 650px;
+}
+
+.discount-bar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 300px;
+    bottom: 0px
+    width: 1600px;
+    height: 278px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.discount-label {
+    width: 300px;
+}
+.discount-label-50 {
+    margin-left: 1100px;
+    margin-bottom: 350px;
 }
