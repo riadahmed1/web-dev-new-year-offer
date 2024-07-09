@@ -148,7 +148,7 @@
     margin-right: 145px;
 }
 
-/* body:main:section id-place&time */
+/* body:main:section id:place&time */
 #place-time {
     width: 1600px;
     height: 482px;
@@ -197,4 +197,101 @@
     align-items: center;
     padding: 16px 32px 16px 32px;
     border: none;
+}
+
+/* body:main:section id:coming-soon */
+#coming-soon {
+    width: 1600px;
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.coming-soon-slogan {
+    width: 850px;
+    text-align: left;
+    padding: 0px 0px 0px 5px;
+    align-items: center;
+}
+.coming-soon-slogan-subtitle {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 0px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+}
+.coming-soon-slogan-title {
+    font-family: "Merriweather", serif;
+    font-size: 60px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+}
+.coming-soon-slogan-description {
+    width: ;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+}
+.coming-soon-img {
+    width: ;
+    border: 15px solid red;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coming-soon-party-img {
+    width: 500px;
+    
+}
+.coming-soon-2024 {
+    width: 600px;
+    text-align: left;
+    padding: 0px 0px 0px 5px;
+    justify-content: left;
+    align-items: center;
+}
+.coming-soon-2024-date {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 58px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: left;
+    padding: 60px 0px 0px 25px;
+}
+.coming-soon-2024-desription {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    text-align: left;
+    padding: 0px 0px 0px 25px;
+}
+.coming-soon-2024-img {
+    width: 150px;
+    padding-top: 50px;
+    padding-left: 25px;
 }
